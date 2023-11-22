@@ -85,12 +85,12 @@ function ProductCard(
     !l?.basics?.contentAlignment || l?.basics?.contentAlignment == "Left"
       ? "left"
       : "center";
-  const skuSelector = variants.map(([value, link]) => (
+  const skuSelector = variants.map(([content, link, colors]) => (
     <li>
       <a href={link}>
         <Avatar
           variant={link === url ? "active" : link ? "default" : "disabled"}
-          content={value}
+          content={content}
         />
       </a>
     </li>
