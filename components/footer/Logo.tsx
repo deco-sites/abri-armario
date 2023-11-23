@@ -12,7 +12,7 @@ export default function Logo({ logo }: Props) {
     <>
       {logo?.image && (
         <div class="flex flex-col gap-3">
-          <div class="w-28 max-h-16">
+          <div class="w-40 max-h-11 h-full">
             <img
               loading="lazy"
               src={logo?.image}

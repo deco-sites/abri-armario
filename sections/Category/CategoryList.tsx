@@ -95,11 +95,11 @@ function CategoryList(props: Props) {
         ) => (
           <Slider.Item
             index={index}
-            class="flex flex-col gap-4 carousel-item first:pl-6 sm:first:pl-0 last:pr-6 sm:last:pr-0"
+            class="flex flex-col gap-4 carousel-item lg:w-[33.33%] first:pl-6 sm:first:pl-0 last:pr-6 sm:last:pr-0"
           >
             <a
               href={href}
-              class="flex flex-col gap-4 lg:w-[280px] w-40 lg:h-auto"
+              class="flex flex-col gap-4 lg:w-[auto] w-40 lg:h-auto"
             >
               {layout.categoryCard?.textPosition === "top" &&
                 (

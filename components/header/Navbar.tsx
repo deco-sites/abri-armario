@@ -57,7 +57,7 @@ function Navbar({ items, searchbar, logo }: {
                 aria-label="Store logo"
                 class="block px-4 py-3 w-[160px]"
               >
-                <Image src={logo.src} alt={logo.alt} width={126} height={16} />
+                <Image src={logo.src} alt={logo.alt} width={160} height={44} />
               </a>
             )}
           </div>
